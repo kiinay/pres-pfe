@@ -15,6 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="css/theme/default.css" id="theme">
 
 		<!-- For syntax highlighting -->
@@ -43,65 +44,475 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+					<div class="title" style="margin-bottom: 50px;">
+            <h2>Projet de Fin d'Étude</h2>
+            <h3>Yannick Placerdat</h3>
+            <p>
+              <small>Développeur Web 12.1</small>
+            </p>
+					</div>
+          <h1 style="color: #9E9E9E; margin-bottom: 70px;">Refonte du site</h1>
+          <img src="images/logo-usi-white.png">
+
+          <aside class="notes">
+          </aside>
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+					<h1 style="color: #CCCCFF; margin-bottom: 50px">Sommaire</h1>
+          <div class="synopsis">
+            <h2 class="fragment roll-in">Presentation d'OCTO Technology</h2>
+            <h2 class="fragment roll-in">Le Projet</h2>
+            <h2 class="fragment roll-in">Mise en place</h2>
+          </div>
 				</section>
+
+        <section>
+          <section>
+            <img src="images/logo-octo-blanc.png">
+
+            <aside class="notes">
+              <p>Fondé 1998</p>
+              <p>innover IT</p>
+              <p>fondé sur des valeurs</p>
+            </aside>
+          </section>
+          <section>
+            <h1 class="title">Valeurs</h1>
+            <div class="values">
+              <img src="images/amour-travail.png">
+              <p>L'amour du travail bien fait</p>
+            </div>
+            <div class="values">
+              <img src="images/ensemble.png">
+              <p>Ensemble,<br> nous sommes plus forts</p>
+            </div>
+            <div class="values">
+              <img src="images/confiance.png">
+              <p>Le pari de la confiance</p>
+            </div>
+
+            <aside class="notes">
+              <p>valeur retrouver dans manifeste</p>
+            </aside>
+          </section>
+          <section data-background="#123961">
+            <img src="images/manifesto.png">
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1 class="title">Le Projet</h1>
+            <img width="800px" src="images/photo-usi.png">
+          </section>
+          <section>
+            <h1>Introduction</h1>
+          </section>
+          <section>
+            <h1>Analyse</h1>
+            <img class="fragment roll-in illu" src="images/site-usi-old.png">
+          </section>
+          <section>
+            <h1>Besoins</h1>
+            <ul class="list">
+              <li class="fragment roll-in">Logo et charte graphique</li>
+              <li class="fragment roll-in">Responsive Design</li>
+              <li class="fragment roll-in">Compatibilité navigateur</li>
+              <li class="fragment roll-in">Ergonomique et innovant</li>
+              <li class="fragment roll-in">Bilingue</li>
+              <li class="fragment roll-in">Arborescence plus simple entre les pages</li>
+              <li class="fragment roll-in">Visionner les vidéos depuis chaine Youtube</li>
+              <li class="fragment roll-in">Réseaux sociaux</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>
+              Mise en Œuvre
+              <br/>
+              du Projet
+            </h1>
+          </section>
+          <section data-background-color="#FFF">
+            <h1>Solutions envisagées</h1>
+            <div class="logo">
+              <img class="fragment roll-in sinatra" src="images/logo-sinatra.png">
+              <img class="fragment roll-in django" src="images/logo-django.png">
+              <img class="fragment roll-in nodejs" src="images/logo-nodejs.png">
+              <img class="fragment roll-in php" src="images/logo-php.png">
+              <img class="fragment roll-in wordpress" src="images/logo-wordpress.png">
+              <img class="fragment roll-in java" src="images/logo-java.png">
+            </div>
+          </section>
+          <section>
+            <h1>Solution retenue</h1>
+            <img class="illu" src="images/logo-rails.png">
+          </section>
+          <section>
+            <h1 class="title">D'où vient-il ?</h1>
+            <p>Extrait de Basecamp en 2004</p>
+            <img src="images/logo2-37signals.png">
+            <p>Est constitué de Ruby</p>
+          </section>
+          <section>
+            <h1>Ruby</h1>
+            <div style="margin-bottom: 80px;" class="fragment roll-in">
+              <div class="ruby">
+                <img width="200px" src="images/ruby.png">
+                <p>Créé en 1995</p>
+              </div>
+              <div class="yukihiro">
+                <img width="150px" src="images/yukihiro-matsumoto.jpg">
+                <p>Yukihiro Matsumoto</p>
+              </div>
+            </div>
+            <p style="margin-bottom: 80px;" class="fragment roll-in">Langage C, Perl et Python</p>
+            <p class="fragment roll-in">Points forts : élégance syntaxique et principe de moindre surprise</p>
+          </section>
+          <section>
+            <h1 class="title">Pourquoi ce choix ?</h1>
+          </section>
+          <section>
+            <h3>Framework utilisant le modèle MVC</h3>
+          </section>
+          <section>
+            <p>Génère une structure opérationnelle</p>
+            <p>Générateur de Controller et de Models</p>
+          </section>
+          <section>
+            <h1>Gems</h1>
+            <img src="images/gems.png">
+          </section>
+          <section>
+            <h1 class="title">Des langages plus faciles à relire</h1>
+          </section>
+          <section>
+            <h1>HAML VS HTML</h1>
+            <div style="display: inline-block;">
+              <img class="fragment" src="images/html.png">
+              <img class="fragment" src="images/haml.png">
+            </div>
+          </section>
+          <section>
+            <h1>SASS VS CSS</h1>
+            <div style="display: inline-block;">
+              <img class="fragment" src="images/css.png">
+              <img class="fragment" src="images/sass.png">
+            </div>
+          </section>
+          <section>
+            <h1>CoffeeScript VS Javascript</h1>
+            <div style="display: inline-block;">
+              <img class="fragment" src="images/javascript.png">
+              <img class="fragment" src="images/coffee-script.png">
+            </div>
+          </section>
+          <section>
+            <h1 class="title">Méthode de recettage</h1>
+            <h1 class="fragment">L'Agile</h1>
+          </section>
+          <section>
+            <h1 class="title">Kanban</h1>
+            <img class="fragment" src="images/kanban.png">
+          </section>
+          <section>
+            <h1>Lean</h1>
+            <p>Amélioration continue</p>
+            <p>Évite tout gaspillage :</p>
+            <ul class="list">
+              <li class="fragment">la surproduction</li>
+              <li class="fragment">l’attente</li>
+              <li class="fragment">le transport</li>
+              <li class="fragment">les étapes inutiles</li>
+              <li class="fragment">le stock</li>
+              <li class="fragment">les mouvements inutiles</li>
+              <li class="fragment">les corrections ou retouches</li>
+            </ul>
+          </section>
+          <section>
+            <h1>MVP</h1>
+            <h2>( Minimum Viable Product )</h2>
+            <p class="fragment">Avoir un logo et une charte graphique</p>
+            <p class="fragment">Responsive design</p>
+            <p class="fragment">Limite navigateur</p>
+            <p class="fragment">Performant / Innovant</p>
+            <p class="fragment">Page de détail (videos, descriptifs, Réseaux Sociaux...)</p>
+            <p class="fragment">Bilingue</p>
+            <p class="fragment">S'inscrire à même le site</p>
+          </section>
+          <section>
+            <h1 class="title">62j / 50j</h1>
+            <h2 class="fragment">Scroll horizontal</h2>
+            <h2 class="fragment">Changement de maquette</h2>
+          </section>
+          <section>
+            <h1 class="title2">Améliorations</h1>
+            <ul class="list">
+              <li class="fragment">Maintenabilité</li>
+              <li class="fragment">UX</li>
+              <li class="fragment">Adaptabilité aux différents appareils</li>
+              <li class="fragment">Communication plus claire</li>
+              <li class="fragment">Interface d'inscription</li>
+              <li class="fragment">Plus d'espace perso</li>
+              <li class="fragment">Plus d'espace commande de dvd</li>
+              <li class="fragment">Plus de liste pré-inscrit</li>
+              <li class="fragment">Call For Paper séparé du site</li>
+            </ul>
+          </section>
+          <section>
+            <img src="images/site-usi1.png">
+          </section>
+          <section>
+            <img src="images/site-usi2.png">
+          </section>
+        </section>
+
+        <section>
+          <h1>Conclusion</h1>
+        </section>
+
+        <section>
+          <h1>Merci !</h1>
+        </section>
+
+        <section data-background-color="#FFE">
+          <h1 style="color: #eeeeee">Questions ?</h1>
+          <img src="images/question.png">
+        </section>
+
+        <section>
+          <p class="fragment grow">grow</p>
+          <p class="fragment shrink">shrink</p>
+          <p class="fragment roll-in">roll-in</p>
+          <p class="fragment fade-out">fade-out</p>
+          <p class="fragment highlight-red">highlight-red</p>
+          <p class="fragment highlight-green">highlight-green</p>
+          <p class="fragment highlight-blue">highlight-blue</p>
+          <p class="fragment current-visible">current-visible</p>
+          <p class="fragment highlight-current-blue">highlight-current-blue</p>
+        </section>
 
 				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
+				<!--<section>-->
+					<!--<section>-->
+						<!--<h1>L'histoire du Responsive Design</h1>-->
+					<!--</section>-->
+					  <!--<section>-->
+						  <!--<h2>D'où ça vient ?</h2>-->
+              <!--<p  class="fragment roll-in">John Allsopp</p>-->
+              <!--<img class="fragment roll-in" src="images/john-allsopp.jpg">-->
 
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-					</p>
-				</section>
+              <!--<aside class="notes">-->
+                <!--<ul>-->
+                  <!--<li>La premiere fois en 2000</li>-->
+                  <!--<li>Web designer</li>-->
+                  <!--<li>D'une adaptation d'internet sur plusieurs tailles d'écran</li>-->
+                  <!--<li>Confirmation plus tard</li>-->
+                <!--</ul>-->
+              <!--</aside>-->
+					  <!--</section>-->
+            <!--<section>-->
+              <!--<p>Ethan Marcotte</p>-->
+              <!--<img class="fragment zoom-in" src="images/ethan-marcotte.jpg">-->
 
-				<section>
+              <!--<aside class="notes">-->
+                <!--<ul>-->
+                    <!--<li>En 2010</li>-->
+                    <!--<li>code a l'appuie et thèse</li>-->
+                <!--</ul>-->
+              <!--</aside>-->
+            <!--</section>-->
+					<!--<section>-->
+                        <!--<p>Trop de différences entre les devices !</p>-->
+                        <!--<img width="730px" src="images/smartphone-random.png">-->
+                        <!--<img class="fragment" width="230px" src="images/bonhomme-interrogation.png">-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>Petit problèmes de taille, norme</li>-->
+                                <!--<li>MAIS ...</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+					<!--<section>-->
+						<!--<h2>Les système d'exploitation !!!</h2>-->
+                        <!--<div class="fragment zoom-in">-->
+                            <!--<img src="images/android.png" style=";">-->
+                            <!--<img src="images/ios.png" style="margin-bottom: 200px;">-->
+                        <!--</div>-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>impose une taille de device</li>-->
+                                <!--<li>Ça n'est pas si simple</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+					<!--</section>-->
+                    <!--<section>-->
+                        <!--<h2>Différence de taille et de qualité</h2>-->
+                        <!--<div class="fragment zoom-in">-->
+                            <!--<img width="232px" src="images/samsung-wave.png">-->
+                            <!--<img width="354px" src="images/iphone.png">-->
+                        <!--</div>-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>Tactiles</li>-->
+                                <!--<li>Qualité</li>-->
+                                <!--<li></li>-->
+                                <!--<li></li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h2>Généralisation</h2>-->
+                        <!--<div class="fragment zoom-in">-->
+                            <!--<img width="470px" src="images/nexus.png">-->
+                            <!--<img width="470px" src="images/iphone4.png">-->
+                        <!--</div>-->
+                    <!--</section>-->
+				<!--</section>-->
+
+				<!--<section>-->
+                    <!--<section>-->
+                        <!--<h1>Problématique :</h1>-->
+                        <!--<h2>L’application ou le Responsive design ?</h2>-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>Notre choix</li>-->
+                                <!--<li>Les points forts</li>-->
+                                <!--<li>Les points faibles</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h1>L'application</h1>-->
+                        <!--<div class="fragment roll-in">-->
+                            <!--<img src="images/google-play.png">-->
+                            <!--<img src="images/appstore.png">-->
+                        <!--</div>-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>Native app</li>-->
+                                <!--<li>utilisateur fidèle, confiant</li>-->
+                                <!--<li>Pas de recenssement naturel</li>-->
+                            <!--</ul>-->
+                            <!--<p>Points faibles:</p>-->
+                            <!--<ul>-->
+                                <!--<li>Un seul type de support</li>-->
+                                <!--<li>Plusieurs designs délivré</li>-->
+                                <!--<li>Augmente le temps de dev</li>-->
+                                <!--<li>evolution technique</li>-->
+                                <!--<li>Changement des regles de plateformes</li>-->
+                            <!--</ul>-->
+                            <!--<p>Points forts :</p>-->
+                            <!--<ul>-->
+                                <!--<li>appel aux fonctions</li>-->
+                                <!--<li>Aux comptes</li>-->
+                                <!--<li>Plus interactifs et plus pratique</li>-->
+                                <!--<li>notion de sureté</li>-->
+                                <!--<li>non limité par le html5</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h1>Le responsive design</h1>-->
+                            <!--<img class="fragment roll-in" src="images/responsive.png">-->
+                        <!--<aside class="notes">-->
+                            <!--<p>Appelé Web app</p>-->
+                            <!--<ul>-->
+                                <!--<li>vise de nouveaux utilisateurs</li>-->
+                                <!--<li>experience agréable des la premiere visite</li>-->
+                                <!--<li>Pour habituer</li>-->
+                            <!--</ul>-->
+                            <!--<p>Points faibles :</p>-->
+                            <!--<ul>-->
+                                <!--<li>Sépare de certaines pages</li>-->
+                            <!--</ul>-->
+                            <!--<p>Points forts :</p>-->
+                            <!--<ul>-->
+                                <!--<li>pas d'approbation</li>-->
+                                <!--<li>réellement universelle</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h1>En conclusion</h1>-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>Les deux ont leurs points forts et defauts</li>-->
+                                <!--<li>Plan d'action</li>-->
+                                <!--<li>Choix du mobile : google analitics ou omniture</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+				<!--</section>-->
+
+                <!--<section>-->
+                    <!--<section>-->
+                        <!--<h1>Le Responsive Web Design</h1>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h2>Pourquoi le RWD ?</h2>-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>Adaptabiliter du site web</li>-->
+                                <!--<li>Colonne s'ajuste</li>-->
+                                <!--<li>Sans degradation</li>-->
+                                <!--<li>Sans jouer avec le zoum</li>-->
+                                <!--<li>Redimensionnement de l'image</li>-->
+                                <!--<li>Meilleur référencement</li>-->
+                                <!--<li>Economie</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h2>Mise en place du RWD</h2>-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>Définir le zoning</li>-->
+                                <!--<li>Block distinct avec les autres</li>-->
+                                <!--<li>Cacher des éléments</li>-->
+                                <!--<li>Mobile first</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h2>Durée de sa mise en place</h2>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h2>Ses points forts</h2>-->
+
+                        <!--<aside class="notes">-->
+                            <!--<ul>-->
+                                <!--<li>Un seul produit a concevoir</li>-->
+                                <!--<li>Plus-values au niveau de l'image de marque</li>-->
+                                <!--<li>Homogénéité entre les supports</li>-->
+                            <!--</ul>-->
+                        <!--</aside>-->
+                    <!--</section>-->
+                    <!--<section>-->
+                        <!--<h2>Ses points faibles</h2>-->
+                    <!--</section>-->
+                <!--</section>-->
+
+                <!--<section>-->
+                    <!--<h1>Conclusion</h1>-->
+                <!--</section>-->
+
+                <!--<section>-->
+                    <!--<h1>Questions</h1>-->
+                <!--</section>-->
+
+				<!--<section>
 					<h2>Point of View</h2>
 					<p>
 						Press <strong>ESC</strong> to enter the slide overview.
@@ -351,7 +762,7 @@ function linkify( selector ) {
 				<section>
 					<h1>THE END</h1>
 					<h3>BY Hakim El Hattab / hakim.se</h3>
-				</section>
+				</section>-->
 
 			</div>
 
