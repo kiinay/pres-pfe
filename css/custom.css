@@ -85,3 +85,7 @@
 .reveal .yukihiro {
   display: inline-block;
 }
+
+.reveal .link {
+  font-size: 50px;
+}
