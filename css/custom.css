@@ -89,3 +89,14 @@
 .reveal .link {
   font-size: 50px;
 }
+
+.reveal .mvc div {
+  display: inline-block;
+}
+
+.reveal .mvc div img {
+  width: 300px;
+  height: 300px;
+}
+
+
